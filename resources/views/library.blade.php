@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     Library Home Page
                         @foreach ($posts as $post)
                             <h1> {{ $post->title }} </h1>

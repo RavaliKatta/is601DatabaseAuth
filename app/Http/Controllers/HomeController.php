@@ -34,5 +34,6 @@ class HomeController extends Controller
         $user = Auth::user();
         $posts = $user->posts;
         return view('library', ['posts' => $posts]);
+
     }
 }
